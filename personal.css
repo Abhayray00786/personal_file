@@ -1,0 +1,593 @@
+*{
+  box-sizing:border-box;
+
+}
+body{
+  margin: 0;
+}
+  div.header{
+  float:left;
+  border: solid 0px red;
+  height: auto;
+  width:100%;
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Lemonada', cursive;
+  background-color: #ffd571;
+  color:#e97171;
+  margin: 0;
+}
+div.name{
+  float:left;
+  border: solid 0px red;
+  height: 80px;
+  width:100%;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  color: #1f4068
+}
+.anant{
+  margin: 5% 0 0 30%;
+  align-items: center;
+  border: solid 0px red;
+  height: 500px;
+  width: 600px;
+}
+div.hello{
+  float:left;
+  border: solid 0px red;
+  height: auto;
+  width:100%;
+  text-align: center;
+  font-weight:bolder;
+  font-size: 80px;
+  color: #cf1b1b;
+}
+div.intro{
+  float:left;
+  border: solid 0px red;
+  height: auto;
+  width:50%;
+  text-align: center;
+  margin: 0 25% 0 25%;
+  font-size: 40px;
+  font-family: 'Sriracha', cursive;
+  color: #f6ab6c;
+}
+div.skill{
+  float:left;
+  border: solid 0px red;
+  height: auto;
+  width:100%;
+  text-align: center;
+  font-size: 70px;
+  color: #086972;
+  font-family: 'Fredoka One', cursive;
+}
+div.program{
+  float: left;
+  border: solid 0px red;
+  height: auto;
+  width:100%;
+  text-align: center;
+  font-size: 50px;
+  color: #654062;
+}
+div.contentp{
+  float: left;
+  border: solid 0px red;
+  height: auto;
+  width:25%;
+  margin-left: 30%;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Sriracha', cursive;
+  color: #e79cc2;
+}
+.prog{
+  float: left;
+  border: solid 0px blue;
+  height: 300px;
+  width:350px;
+  margin: 5% 20% 0 0;
+}
+div.webd{
+  float: left;
+  border: solid 0px red;
+  height: auto;
+  width:100%;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 5%;
+  color: #f3c623;
+}
+div.contentd{
+  float: left;
+  float: right;
+  border: solid 0px red;
+  height: auto;
+  width:25%;
+  margin-right: 20%;
+  text-align: center;
+  font-size: 25px;
+  color: #fa7d09;
+  font-family: 'Sriracha', cursive;
+}
+.web{
+  float: left;
+  border: solid 0px blue;
+  height: 300px;
+  width:350px;
+  margin: 5% 0 0 30%;
+}
+div.mso{
+  float: left;
+  border: solid 0px red;
+  height: auto;
+  width:100%;
+  text-align: center;
+  margin-top: 5%;
+  font-size: 50px;
+  color: #654062;
+}
+div.contentm{
+  float: left;
+  border: solid 0px red;
+  height: auto;
+  width:25%;
+  margin-left: 30%;
+  text-align: center;
+  font-size: 25px;
+  color: #e79cc2;
+  font-family: 'Sriracha', cursive;
+}
+.ms{
+  float: left;
+  border: solid 0px blue;
+  height: 300px;
+  width:350px;
+  margin: 5% 20% 0 0;
+}
+div.interests{
+  float: left;
+  border: solid 0px red;
+  height: auto;
+  width:100%;
+  text-align: center;
+  font-size: 70px;
+  color: #086972;
+  font-family: 'Fredoka One', cursive;
+}
+div.cricket{
+  float: left;
+  border: solid 0px red;
+  height: auto;
+  width:100%;
+  text-align: center;
+  font-size: 50px;
+  color: #f3c623;
+}
+div.contentc{
+  float:right;
+  border: solid 0px red;
+  height: auto;
+  width:25%;
+  margin-right: 20%;
+  text-align: center;
+  font-size: 25px;
+  color: #fa7d09;
+  font-family: 'Sriracha', cursive;
+}
+.crick{
+  float: left;
+  border: solid 0px blue;
+  height: 300px;
+  width:350px;
+  margin: 5% 0 0 30%;
+}
+div.webs{
+  float: left;
+  border: solid 0px red;
+  height: auto;
+  width:100%;
+  text-align: center;
+  margin-top: 5%;
+  font-size: 50px;
+  color: #654062;
+}
+div.contentw{
+  float: left;
+  border: solid 0px red;
+  height: auto;
+  width:25%;
+  margin-left: 30%;
+  text-align: center;
+  font-size: 25px;
+  color: #e79cc2;
+  font-family: 'Sriracha', cursive;
+}
+.series{
+  float: left;
+  border: solid 0px blue;
+  height: 300px;
+  width:350px;
+  margin: 5% 20% 0 0;
+}
+div.break{
+  float: left;
+  height: auto;
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  color: red;
+}
+div.want{
+  float: left;
+  border: solid 0px red;
+  height: auto;
+  width:100%;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Fredoka One', cursive;
+  color: #cf7500;
+}
+div.touch{
+  float: left;
+  border: solid 0px red;
+  height: auto;
+  width:100%;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Sriracha', cursive;
+  color: #4cd3c2;
+}
+div.footer{
+  float: left;
+  border: solid 0px green;
+  height:auto;
+  width:100%;
+  text-align: center;
+  background-color: black;
+  color: red;
+}
+
+.fb{
+  margin: 3% 10% 0 23%;
+  float:left;
+  height:100px;
+  width:100px;
+}
+.insta{
+  margin: 3% 10% 0 10%;
+  float:left;
+  height:100px;
+  width:100px;
+}
+.twitter{
+  margin: 3% 10% 0 10%;
+  float:left;
+  height:100px;
+  width:100px;
+}
+
+.whatsapp{
+  margin: 2% 15% 1% 35%;
+  float:left;
+  height:100px;
+  width:100px;
+}
+.linkedin{
+  margin: 2% 10% 1% 6%;
+  float:left;
+  height:100px;
+  width:100px;
+}
+div.copyright{
+  float:left;
+  border: solid 0px red;
+  height: auto;
+  width:100%;
+  text-align: center;
+  font-weight:bolder;
+  font-size: 25px;
+  background-color: #89c9b8;
+}
+
+
+
+
+
+@media screen and (max-width: 500px) {
+  body{
+    margin: 0;
+  }
+div.header{
+    float:left;
+    border: solid 0px red;
+    height: auto;
+    width:100%;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Lemonada', cursive;
+    background-color: #ffd571;
+    color:#e97171;
+  }
+  div.name{
+    float:left;
+    border: solid 0px red;
+    height: 20px;
+    width:100%;
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: #1f4068
+  }
+  .anant{
+    margin: 5% 0 0 30%;
+    align-items: center;
+    border: solid 0px red;
+    height: 100px;
+    width: 150px;
+  }
+  div.hello{
+    float:left;
+    border: solid 0px red;
+    height: auto;
+    width:100%;
+    text-align: center;
+    font-weight:bolder;
+    font-size: 20px;
+    color: #cf1b1b;
+  }
+  div.intro{
+    float:left;
+    border: solid 0px red;
+    height: auto;
+    width:50%;
+    text-align: center;
+    margin: 0 25% 0 25%;
+    font-size: 10px;
+    font-family: 'Sriracha', cursive;
+    color: #f6ab6c;
+  }
+  div.skill{
+    float:left;
+    border: solid 0px red;
+    height: auto;
+    width:100%;
+    text-align: center;
+    font-size: 20px;
+    color: #086972;
+    font-family: 'Fredoka One', cursive;
+  }
+  div.program{
+    float: left;
+    border: solid 0px red;
+    height: auto;
+    width:100%;
+    text-align: center;
+    font-size: 15px;
+    color: #654062;
+  }
+  div.contentp{
+    float: left;
+    border: solid 0px red;
+    height: auto;
+    width:25%;
+    margin-left: 30%;
+    text-align: center;
+    font-size: 8px;
+    font-family: 'Sriracha', cursive;
+    color: #e79cc2;
+  }
+  .prog{
+    float: left;
+    border: solid 0px blue;
+    height: 170px;
+    width: 75px;
+    margin: 5% 20% 0 0;
+  }
+  div.webd{
+    float: left;
+    border: solid 0px red;
+    height: auto;
+    width:100%;
+    text-align: center;
+    font-size: 15px;
+    color: #f3c623;
+    margin-top: 10%;
+  }
+  div.contentd{
+    float: left;
+    float: right;
+    border: solid 0px red;
+    height: auto;
+    width:25%;
+    margin-right: 20%;
+    text-align: center;
+    font-size: 8px;
+    color: #fa7d09;
+    font-family: 'Sriracha', cursive;
+  }
+  .web{
+    float: left;
+    border: solid 0px blue;
+    height: 170px;
+    width: 75px;
+    margin: 5% 0 0 30%;
+  }
+  div.mso{
+    float: left;
+    border: solid 0px red;
+    height: auto;
+    width:100%;
+    text-align: center;
+    font-size: 15px;
+    color: #654062;
+    margin-top: 10%;
+  }
+  div.contentm{
+    float: left;
+    border: solid 0px red;
+    height: auto;
+    width:25%;
+    margin-left: 30%;
+    text-align: center;
+    font-size: 8px;
+    color: #e79cc2;
+    font-family: 'Sriracha', cursive;
+  }
+  .ms{
+    float: left;
+    border: solid 0px blue;
+    height: 170px;
+    width: 75px;
+    margin: 5% 20% 0 0;
+  }
+  div.interests{
+    float: left;
+    border: solid 0px red;
+    height: auto;
+    width:100%;
+    text-align: center;
+    font-size: 20px;
+    color: #086972;
+    font-family: 'Fredoka One', cursive;
+  }
+  div.cricket{
+    float: left;
+    border: solid 0px red;
+    height: auto;
+    width:100%;
+    text-align: center;
+    font-size: 15px;
+    color: #f3c623;
+  }
+  div.contentc{
+    float:right;
+    border: solid 0px red;
+    height: auto;
+    width:25%;
+    margin-right: 20%;
+    text-align: center;
+    font-size: 8px;
+    color: #fa7d09;
+    font-family: 'Sriracha', cursive;
+  }
+  .crick{
+    float: left;
+    border: solid 0px blue;
+    height: 170px;
+    width: 75px;
+    margin: 5% 0 0 30%;
+  }
+  div.webs{
+    float: left;
+    border: solid 0px red;
+    height: auto;
+    width:100%;
+    text-align: center;
+    font-size: 15px;
+    color: #654062;
+    margin-top: 10%;
+  }
+  div.contentw{
+    float: left;
+    border: solid 0px red;
+    height: auto;
+    width:25%;
+    margin-left: 30%;
+    text-align: center;
+    font-size: 8px;
+    color: #e79cc2;
+    font-family: 'Sriracha', cursive;
+  }
+  .series{
+    float: left;
+    border: solid 0px blue;
+    height: 170px;
+    width: 75px;
+    margin: 5% 20% 0 0;
+  }
+  div.break{
+    float: left;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    color: red;
+  }
+  div.want{
+    float: left;
+    border: solid 0px red;
+    height: auto;
+    width:100%;
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Fredoka One', cursive;
+    color: #cf7500;
+  }
+  div.touch{
+    float: left;
+    border: solid 0px red;
+    height: auto;
+    width:100%;
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Sriracha', cursive;
+    color: #4cd3c2;
+  }
+  div.footer{
+    float: left;
+    border: solid 0px green;
+    height:auto;
+    width:100%;
+    text-align: center;
+    background-color: black;
+    color: red;
+  }
+
+  .fb{
+    margin: 3% 10% 0 23%;
+    float:left;
+    height: 25px;
+    width: 25px;
+  }
+  .insta{
+    margin: 3% 10% 0 10%;
+    float:left;
+    height: 25px;
+    width: 25px;
+  }
+  .twitter{
+    margin: 3% 10% 0 10%;
+    float:left;
+    height: 25px;
+    width: 25px;
+  }
+
+  .whatsapp{
+    margin: 2% 15% 1% 35%;
+    float:left;
+    height: 25px;
+    width: 25px;
+  }
+  .linkedin{
+    margin: 2% 10% 1% 6%;
+    float:left;
+    height: 25px;
+    width: 25px;
+  }
+  div.copyright{
+    float:left;
+    border: solid 0px red;
+    height: auto;
+    width:100%;
+    text-align: center;
+    font-weight:bolder;
+    font-size: 10px;
+    background-color: #89c9b8;
+  }
+
+}
